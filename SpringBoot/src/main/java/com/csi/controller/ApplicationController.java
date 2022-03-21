@@ -26,4 +26,10 @@ public class ApplicationController {
     {
         return  "Pune ";
     }
+
+    @GetMapping("/department")
+    public  String sayDepartment()
+    {
+        return "HR DEPARTMENT";
+    }
 }
